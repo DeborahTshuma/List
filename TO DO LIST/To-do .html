@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>To-Do List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #taskList {
+            list-style: disc;
+            padding: 0;
+            margin: 0;
+        }
+        #taskList li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
